@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "23171051"))
 API_HASH = environ.get("API_HASH", "10331d5d712364f57ffdd23417f4513c")
 BOT_TOKEN = environ.get("BOT_TOKEN", "6737943130:AAFw7G1NAPIdNgp1oscTGrj53YiqTl1-xGM")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/18c1d84bd31c92f84ab1e.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987799874').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "TMR_File_Storee_bot") # without @
 PORT = environ.get("PORT", "8080")
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://possible-allys-jisshu12-96ca3782.koyeb.app/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
