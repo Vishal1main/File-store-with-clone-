@@ -28,7 +28,7 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "TMR_File_Storee_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://tmr624062:eare85q1dGguxRb1@cluster0.hi9fvgz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -42,7 +42,7 @@ DB_NAME = environ.get("DB_NAME", "Clone_vj2")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
