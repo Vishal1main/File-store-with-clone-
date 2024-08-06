@@ -23,12 +23,12 @@ API_HASH = environ.get("API_HASH", "10331d5d712364f57ffdd23417f4513c")
 BOT_TOKEN = environ.get("BOT_TOKEN", "6737943130:AAFw7G1NAPIdNgp1oscTGrj53YiqTl1-xGM")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/18c1d84bd31c92f84ab1e.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987799874').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987799874 6098828321').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "TMR_File_Storee_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
-CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://tmr624062:eare85q1dGguxRb1@cluster0.hi9fvgz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://possible-allys-jisshu12-96ca3782.koyeb.app/")
+URL = environ.get("URL", "https://eerie-alikee-filestore46-d47cd6f0.koyeb.app/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
